@@ -15,6 +15,9 @@ env:
   TZ: Asia/Shanghai
 
 on:
+ watch:
+  types: [started]
+    
   repository_dispatch:
   workflow_dispatch:
     inputs:
